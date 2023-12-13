@@ -235,3 +235,8 @@ else:
 
     fig = plot_shooting_percentage(filtered_data, selected_distance, st)
     st.markdown("<medium style='text-align: center;'>Use the box above to select a distance and see the percentage of makes and misses. The green represents makes, the red represents misses.</small>", unsafe_allow_html=True)
+
+
+st.header('Useful Links')
+st.markdown("- [GitHub Repository](https://github.com/Andrew601/Stat-386-Project)", unsafe_allow_html=True)
+st.markdown("- [Blog Post](https://andrew601.github.io/ShotAnalysis.html)", unsafe_allow_html=True)
