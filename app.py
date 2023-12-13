@@ -173,9 +173,10 @@ with col2:
     st.markdown("<small style='text-align: center;'>This line graph shows the change in field goals attempted and made per game over the last 20 years, there is little change in the total number of shots taken per game.</small>", unsafe_allow_html=True)
 
 # Heatmaps
-selected_season = st.selectbox('Select Season', ['2002-2003 Season', '2022-2023 Season'])
+
 
 st.header('Season Shooting Data')
+selected_season = st.selectbox('Select Season', ['2002-2003 Season', '2022-2023 Season'])
 
 # Create columns for heatmaps
 col3, col4 = st.columns(2)
