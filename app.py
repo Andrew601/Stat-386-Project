@@ -28,6 +28,7 @@ def plot_distance_histogram(data_list, colors, title, show_3point_line=True):
     fig, ax = plt.subplots(figsize=(10, 6))
     
     for i, data in enumerate(data_list):
+        data['Distance (ft)'] = pd.to_numeric(data['Distance (ft)'], errors='coerce')
         sns.histplot(data['Distance (ft)'], bins=bin_edges, kde=False, alpha=0.6, ax=ax, color=colors[i], label=seasons[i])
     if show_3point_line:
         ax.axvline(x=24, color='red', linestyle='--', label='3-point Line')
