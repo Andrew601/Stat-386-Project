@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import SymLogNorm
 
-pd.set_option('mode.use_inf_as_na', True)
 
 st.set_page_config(
     page_title="Shot Data Analysis",
