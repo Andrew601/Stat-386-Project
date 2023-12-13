@@ -244,3 +244,4 @@ else:
 st.header('Useful Links')
 st.markdown("- [GitHub Repository](https://github.com/Andrew601/Stat-386-Project)", unsafe_allow_html=True)
 st.markdown("- [Blog Post](https://andrew601.github.io/ShotAnalysis.html)", unsafe_allow_html=True)
+
